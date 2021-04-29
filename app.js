@@ -100,6 +100,7 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function multiplyArray(multArr) { //eslint-disable-line
+
     let output = multiply(multiply(multArr[0],multArr[1])[0],multArr[2])[0]
     return[output, `The numbers ${multArr[0]},${multArr[1]},${multArr[2]} have a product of ${output}.`]
     }
@@ -107,6 +108,7 @@ function multiplyArray(multArr) { //eslint-disable-line
 
 // Here is the test for multiplyArray(); uncomment it to run it
 testMultiplyArray(testArray);
+
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. 
 
@@ -138,6 +140,12 @@ function multiplyAnyArray(dynamicArray) { //eslint-disable-line
 }
 
 // Here is the test for multiplyArray(); uncomment it to run it
+
  testMultiplyAnyArray(testDynamicArray);
+
+
+
+ 
+
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. You're done! Submit the link to the repo following the instructions in Canvas.
